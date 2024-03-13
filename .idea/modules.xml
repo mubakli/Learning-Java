@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Basics/Basics.iml" filepath="$PROJECT_DIR$/Basics/Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ders/Calculate/Calculate.iml" filepath="$PROJECT_DIR$/Ders/Calculate/Calculate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercises/Carpet Cost Calculator/Carpet Cost Calculator.iml" filepath="$PROJECT_DIR$/Exercises/Carpet Cost Calculator/Carpet Cost Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ders/Ders.iml" filepath="$PROJECT_DIR$/Ders/Ders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercises/Exercises.iml" filepath="$PROJECT_DIR$/Exercises/Exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab Ders/Lab Ders.iml" filepath="$PROJECT_DIR$/Lab Ders/Lab Ders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Learning-Java.iml" filepath="$PROJECT_DIR$/.idea/Learning-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/OOP/OOP.iml" filepath="$PROJECT_DIR$/Basics/OOP/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/Operator/Operator.iml" filepath="$PROJECT_DIR$/Basics/Operator/Operator.iml" />
+    </modules>
+  </component>
+</project>

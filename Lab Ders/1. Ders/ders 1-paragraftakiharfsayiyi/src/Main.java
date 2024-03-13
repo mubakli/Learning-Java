@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int sayac = 0;
-
         String paragraph = " ali ata bin.";
 
         for(int i = 0; i < paragraph.length();i++){
