@@ -4,7 +4,6 @@ public class Check {
     String email;
     String ipAdress;
     boolean bool = false;
-    int count = 0;
     public boolean isEmailIllegal() {
         int index = this.email.indexOf("@");
         if (index == 0 || this.email.length() - index <= 5) {
@@ -20,14 +19,13 @@ public class Check {
         }
     }
     public String splitNumbers(String str, int stringLength){
-            if( stringLength > 0) {
                 int index = str.indexOf(".");
                 if (index != -1) {
                     int number = Integer.valueOf(str.substring(0, index));
                     checkNumber(number);
                     str = str.substring(index + 1);
                     return splitNumbers(str, str.length());
-                }
+
             }
         return "Process done.";
    }
