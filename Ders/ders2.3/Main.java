@@ -13,7 +13,7 @@ public class Main {
             check.bool = false;
             System.out.println("Please enter your IP adress. ");
             check.ipAdress = sc.nextLine();
-            deneme = check.splitNumbers(check.ipAdress,check.ipAdress.length());
+            deneme = check.splitNumbers(check.ipAdress);
         }while (check.bool);
 
     }
