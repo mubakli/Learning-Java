@@ -18,13 +18,13 @@ public class Check {
             System.out.println("this IP adress is unvalid please enter a valid IP adress");
         }
     }
-    public String splitNumbers(String str, int stringLength){
+    public String splitNumbers(String str){
                 int index = str.indexOf(".");
                 if (index != -1) {
                     int number = Integer.valueOf(str.substring(0, index));
                     checkNumber(number);
                     str = str.substring(index + 1);
-                    return splitNumbers(str, str.length());
+                    return splitNumbers(str);
 
             }
         return "Process done.";
