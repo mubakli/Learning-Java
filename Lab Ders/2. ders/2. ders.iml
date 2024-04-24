@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1.etc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ConstructorBasic" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathLib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RectangeClass" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StudentClass" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Substring" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
