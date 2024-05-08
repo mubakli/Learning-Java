@@ -5,15 +5,15 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
         String dosyaAdi = "cv.txt";
-        String bilgi = "Bu bir test bilgisidir.\n";
-        String bilgi2 = "2.deneme \n";
+        String name = "Name: Burak ASARCIKLI \n";
+        String experience = "Experience: 5 years in java development \n";
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(dosyaAdi))) {
-            writer.write(bilgi);
-            writer.write(bilgi2);
-            System.out.println("Bilgi başarıyla dosyaya yazıldı.");
+            writer.write(name);
+            writer.write(experience);
+            System.out.println("cv.txt successfully updated. ");
         } catch (IOException e) {
-            System.out.println("Hata: Dosya yazma işlemi sırasında bir hata oluştu.");
+            System.out.println("Error: File writing unsuccessful.");
             e.printStackTrace();
         }
     }
